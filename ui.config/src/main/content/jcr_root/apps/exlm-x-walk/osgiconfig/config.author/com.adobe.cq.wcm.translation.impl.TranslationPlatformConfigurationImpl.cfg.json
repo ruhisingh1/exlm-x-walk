@@ -1,0 +1,4 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "syncTranslationState.schedulingFormat":"0 0 9 1/1 * ? *"
+}

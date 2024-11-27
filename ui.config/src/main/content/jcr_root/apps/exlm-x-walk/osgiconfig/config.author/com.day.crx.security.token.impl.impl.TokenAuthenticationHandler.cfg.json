@@ -1,0 +1,5 @@
+{
+    "token.required.attr":"none",
+    "token.encapsulated":true,
+    "token.samesite.cookie.attr": "none"
+}

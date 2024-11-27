@@ -1,0 +1,53 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /home/groups/exlm",
+        "create path (sling:OrderedFolder) /content/exlm",
+        "create path (sling:OrderedFolder) /content/exlm/global",
+        "create path (sling:OrderedFolder) /content/projects",
+        "create path (sling:OrderedFolder) /var/workflow",
+        "create path (sling:OrderedFolder) /content/cq:tags",
+        "create path (sling:OrderedFolder) /content/dam",
+        "create path (sling:OrderedFolder) /content/dam/exlm-x-walk",
+        "create path (nt:unstructured) /content/dam/exlm-x-walk/jcr:content",
+        "set properties on /content/dam/exlm-x-walk/jcr:content\n  set cq:conf{String} to /conf/exlm-x-walk\n  set jcr:title{String} to \"Experience League\"\nend",
+        "create group exlm-groovy-console-admin",
+        "create path (cq:Tag) /content/cq:tags/exl",
+        "set properties on /content/cq:tags/exl\n  set sling:resourceType{String} to cq/tagging/components/tag\n  set jcr:title{String} to \"ExL\"\nend",
+        "create service user exl-service-user with path system/cq:services/internal",
+        "set principal ACL for exl-service-user\n allow jcr:read on / \n allow jcr:read,jcr:write,jcr:versionManagement,rep:write,crx:replicate on  /content/cq:tags\n allow jcr:read,jcr:write,rep:write on  /var/workflow\nend",
+        "create service user exl-workflow-user with path system/cq:services/internal",
+        "set principal ACL for exl-workflow-user\n allow jcr:read on / \n allow jcr:all on /content \n allow jcr:all on /var \nend",
+        
+ 
+        // Create and configure the "aem-perspective-editors" group
+        "create group aem-perspective-editors with path /home/groups/exlm",
+        "add exlm-perspective-editors to group aem-perspective-editors",
+        "add aem-perspective-editors to group projects-administrators",
+        "set ACL for aem-perspective-editors\n",
+        "    allow jcr:read on /\n",
+        "    allow jcr:read on /conf\n",
+        "    allow jcr:all on /content/dam\n",
+        "    allow jcr:read on /content/cq:tags\n",
+        "    allow jcr:read on /content/exlm\n",
+        "    allow jcr:all on /content/projects\n",
+        "    allow jcr:all on /var/workflow\n",
+        "    deny crx:replicate on /content/exlm/global\n",
+        "    allow rep:write on /content/exlm/global restriction(rep:glob, /*/perspectives*)\n",
+        "end",
+ 
+        // Create and configure the "aem-perspective-publishers" group
+        "create group aem-perspective-publishers with path /home/groups/exlm",
+        "add exlm-perspective-publishers to group aem-perspective-publishers",
+        "add aem-perspective-publishers to group projects-administrators",
+        "set ACL for aem-perspective-publishers\n",
+        "    allow jcr:read on /\n",
+        "    allow jcr:read on /conf\n",
+        "    allow jcr:all on /content/dam\n",
+        "    allow jcr:read on /content/cq:tags\n",
+        "    allow jcr:read on /content/exlm\n",
+        "    allow jcr:all on /content/projects\n",
+        "    allow jcr:all on /var/workflow\n",
+        "    allow rep:write, crx:replicate on /content/exlm/global restriction(rep:glob, /*/perspectives*)\n",
+        "end"
+    ]
+}

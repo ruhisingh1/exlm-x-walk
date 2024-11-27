@@ -1,0 +1,17 @@
+{
+	"environment.type": "non-prod",
+	"destinationLanguages": [
+		"de",
+		"es",
+		"fr",
+		"it",
+		"ja",
+		"ko",
+		"nl",
+		"pt-BR",
+		"sv",
+		"zh-TW",
+		"zh-CN",
+		"ar"
+	]
+}

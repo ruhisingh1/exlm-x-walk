@@ -1,0 +1,16 @@
+kind: "CDN"
+version: "1"
+metadata:
+  envTypes: ["prod"]
+data:
+  authentication:
+    authenticators:
+      - name: edge-auth
+        type: edge
+        edgeKey1: ${{CDN_EDGEKEY_PROD_080924}}
+    rules:
+      - name: edge-auth-rule
+        when: { reqProperty: tier, equals: "publish" }
+        action:
+          type: authenticate
+          authenticator: edge-auth

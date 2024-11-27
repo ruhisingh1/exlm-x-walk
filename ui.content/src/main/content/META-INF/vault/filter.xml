@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/exlm" mode="merge"/>
+    <filter root="/content/exlm" mode="merge"/>
+    <filter root="/content/dam/exlm" mode="merge"/>
+    <filter root="/content/cq:tags" mode="update"/>
+    <filter root="/conf/global/settings/workflow/models/exlm-publish-loc-pages" mode="merge"/>
+    <filter root="/var/workflow/models/exlm-publish-loc-pages" mode="merge"/>
+    <filter root="/conf/global/settings/workflow/launcher/config/exlm-loc-pages-launcher" mode="update"/>
+    <filter root="/conf/global/settings/translation/rules" mode="update"/>
+    <filter root="/conf/global/settings/translation/rules/translation_rules.xml" mode="update"/>
+</workspaceFilter>

@@ -1,0 +1,31 @@
+// Note: Changing the parentTag or the optionalTagHierarchy after synch requires manual cleanup of tag nodes and tag usage
+{
+  "schedulerName":"Tag Synch Scheduler",
+  "schedulerConcurrent":"false",
+  "schedulerRunOn":"LEADER",
+  "serviceEnabled":"true",
+  "schedulerExpression":"0 0 0 1/1 * ? *",
+  "exlTagApis":[
+    "Content-Type,https://experienceleague.adobe.com/api/types?page_size=100,,no-format",
+    "Experience-Level,https://experienceleague.adobe.com/api/levels?page_size=100,,json-format",
+    "Solution,https://experienceleague.adobe.com/api/solutions?full=true&page_size=1000,,no-format",
+    "Feature,https://experienceleague.adobe.com/api/features?page_size=1000,Solution,json-format",
+    "Role,https://experienceleague.adobe.com/api/roles?page_size=100,,json-format",
+    "Industry,https://experienceleague.adobe.com/api/industries?page_size=1000,,json-format",
+    "Topic,https://experienceleague.adobe.com/api/topics?page_size=1000,,json-format"
+  ],
+  "tagLocales": [
+    "en,en",
+    "de,de",
+    "es,es",
+    "fr,fr",
+    "it,it",
+    "ja,ja",
+    "nl,nl",
+    "pt-BR,pt",
+    "sv,sv",
+    "zh-TW,tw",
+    "zh-CN,zh",
+    "ko,ko"
+  ]
+}

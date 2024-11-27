@@ -1,0 +1,6 @@
+{
+	"externalizer.domains": [
+		"publish https://experienceleague-stage.adobe.com",
+		"author https://author-p122525-e1219192.adobeaemcloud.com"
+	]
+}

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><nodelist>
+  <node path="/content">
+    <!-- Adaptive form related OOTB properties -->
+    <!-- End of Adaptive form related OOTB properties -->
+    <property inherit="true" name="Text" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="actionText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="addLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="allowedResponses" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="alt" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="articleReadingTime" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="attachFileLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="author-bio-page" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="author-description" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="author-name" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="author-title" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="author1_bio" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="author1_cta" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="author1_ctaText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="author2_bio" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="author2_cta" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="author2_ctaText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="authors_description" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="authors_heading" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="benefits" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="block-quote" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="body" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="buttonLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="buttonText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="cardDescription" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="cardHeading" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="cardIconAlt" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="cardLink" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="cardLinkText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="chartAlt" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="complete-profile-url" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="confirmationMessageToggle" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="confirmationMessageUntoggle" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="constraintMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="content" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="contentLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="contentURL" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="content_link" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="content_description" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="content_cta" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="cq:language" translate="true" updateDestinationLanguage="true"/>
+    <property inherit="true" name="cq:panelTitle" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="cta1" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="cta1Text" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="cta2" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="cta2Text" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="customAssist" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="denyText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="description" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="detailDescription" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="displayMsg" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="emptyText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="enforceEnumMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="enumNames" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="eyebrow" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="eyebrow_logoAlt" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="eyebrow_subtitle" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="eyebrow_title" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="fieldLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="fileReferenceAlt" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="filterLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="first-callout-text" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="formatMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="greetingLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="heading" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="helpMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="href" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="iconImageAlt" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="image/alt" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="image/jcr:description" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="image/jcr:title" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="imgAlt" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="incompleteProfileText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="incomplete-profile-url" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="jcr:description" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="jcr:title" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="label" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="link" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="linkText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="listLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="longDescr" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="longDescription" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="main" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="mandatoryMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="maxItemsMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="maxLengthMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="maximumMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="minItemsMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="minLengthMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="minimumMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="moreText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="false" name="name" translate="false" updateDestinationLanguage="false"/>
+    <property inherit="true" name="navTitle" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="occupations" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="options" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="pageTitle" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="placeholder" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="placeholderDay" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="placeholderMonth" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="placeholderText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="placeholderYear" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="pretitle" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="requiredMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="resetTitle" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="resultText" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="searchBar" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="second-callout-text" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="shortDescr" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="shortDescription" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="signInLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="signOutLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="stepMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="subjectAlt" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="subjectLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="subtitle" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="tableData" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="text" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="thankYouMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="title" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="titleDay" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="titleDivContent" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="titleMonth" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="titleYear" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="tncCheckBoxContent" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="tncTextContent" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="toggleLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="tooltip" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="transitionLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="typeMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="uniqueItemsMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="untoggleLabel" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="validateExpMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="validatePictureClauseMessage" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="value" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="xAxisTitle" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="yAxisTitle" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="author-social-link-text" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="collect-data-heading" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="collect-data-description" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="email-heading" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="email-description" translate="true" updateDestinationLanguage="false"/>
+    <property inherit="true" name="legal" translate="true" updateDestinationLanguage="false"/>
+    <filter/>
+    <node pathContains="/cq:annotations">
+      <property name="text" translate="false"/>
+    </node>
+  </node>
+  <node path="/content/forms">
+    <property name="text" translate="false"/>
+  </node>
+  <node path="/content/dam">
+    <property name="dc:description"/>
+    <property name="dc:rights"/>
+    <property name="dc:subject"/>
+    <property name="dc:title"/>
+    <property name="defaultContent"/>
+    <property name="jcr:description"/>
+    <property name="jcr:title"/>
+    <property name="pdf:Title"/>
+    <property name="xmpRights:UsageTerms"/>
+    <property name="main"/>
+    <property name="adventureActivity"/>
+    <property name="adventureDescription"/>
+    <property name="adventureDifficulty"/>
+    <property name="adventureGearList"/>
+    <property name="adventureGroupSize"/>
+    <property name="adventureItinerary"/>
+    <property name="adventurePrice"/>
+    <property name="adventureTitle"/>
+    <property name="adventureTripLength"/>
+    <property name="adventureType"/>
+    <node pathContains="/jcr:content/metadata/predictedTags">
+      <property name="name"/>
+    </node>
+  </node>
+  <node path="/content/campaigns">
+    <property name="subject"/>
+    <property name="plaintext"/>
+    <property name="preheader"/>
+  </node>
+  <assetNode assetReferenceAttribute="fragmentPath" checkInChildNodes="false" createLangCopy="true" resourceType="cq/experience-fragments/editor/components/experiencefragment"/>
+  <assetNode assetReferenceAttribute="fragmentVariationPath" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/experiencefragment/v1/experiencefragment"/>
+  <assetNode assetReferenceAttribute="fragmentVariationPath" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"/>
+  <assetNode assetReferenceAttribute="fileReference" checkInChildNodes="false" createLangCopy="true" resourceType="dam/cfm/components/contentfragment"/>
+  <assetNode assetReferenceAttribute="asset" checkInChildNodes="false" createLangCopy="true" resourceType="docs/components/download"/>
+  <assetNode assetReferenceAttribute="asset" checkInChildNodes="false" createLangCopy="true" resourceType="docs/components/image"/>
+  <assetNode assetReferenceAttribute="fileReference" checkInChildNodes="false" createLangCopy="true" resourceType="foundation/components/image"/>
+  <assetNode assetReferenceAttribute="asset" checkInChildNodes="false" createLangCopy="true" resourceType="foundation/components/video"/>
+  <assetNode assetReferenceAttribute="fileReference" checkInChildNodes="false" createLangCopy="true" resourceType="foundation/components/download"/>
+  <assetNode assetReferenceAttribute="fileReference" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/download/v1/download"/>
+  <assetNode assetReferenceAttribute="fileReference" checkInChildNodes="false" createLangCopy="true" resourceType="wcm/foundation/components/image"/>
+  <assetNode assetReferenceAttribute="fragmentPath" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/contentfragment/v1/contentfragment"/>
+  <assetNode assetReferenceAttribute="fileReference" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/image/v2/image"/>
+  <assetNode assetReferenceAttribute="fileReference" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/image/v3/image"/>
+  <assetNode assetReferenceAttribute="linkURL" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/image/v3/image"/>
+  <assetNode assetReferenceAttribute="parentPage" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/list/v2/list"/>
+  <assetNode assetReferenceAttribute="link" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/button/v1/button"/>
+  <assetNode assetReferenceAttribute="linkURL" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/button/v2/button"/>
+  <assetNode assetReferenceAttribute="linkURL" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/teaser/v2/teaser"/>
+  <assetNode assetReferenceAttribute="link" checkInChildNodes="true" createLangCopy="true" resourceType="core/wcm/components/teaser/v2/teaser"/>
+  <assetNode assetReferenceAttribute="fileReference" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/teaser/v2/teaser"/>
+  <assetNode assetReferenceAttribute="parentPage" checkInChildNodes="false" createLangCopy="true" resourceType="core/wcm/components/list/v3/list"/>
+</nodelist>
